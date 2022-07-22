@@ -1,0 +1,81 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 10px;
+  font-family: arial;
+}
+
+.container{
+  background-color: rgba(0,0,0,0.5);
+  width: 800px;
+  height: 550px;
+  box-sizing: border-box;
+  padding: 50px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+header{
+text-align: center;
+}
+
+.logo{
+  width: 160px;
+}
+
+.slogan-text{
+  color: #40E000;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+nav{
+  box-sizing: border-box;
+  width: 650px;
+  background-color: #40E000;
+  margin: auto;
+  padding: 7px;
+  text-align: center;
+}
+
+.scooter-type{
+  box-sizing: border-box;
+  width: 650px;
+  margin: auto;
+  color: white;
+}
+
+.model-name{
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.arrow:before{
+  content: "\21A6";
+}
+
+.row-distance, .row-charge{
+  font-size: 12px;
+}
+
+.charge{
+  height: 20px;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
+.medium{
+  background-color: #FFC000;
+  width: 250px;
+}
+
+.high{
+  background-color: #30C000;
+  width: 400px;
+}
+
+.low{
+  background-color: #C04040;
+  width: 100px;
+}
